@@ -1,0 +1,53 @@
+---
+title: "![](img/egu24_logo.svg){width=300}"
+subtitle: "Drought's trends over continental Chile using climatic variables of water demand and supply, soil moisture, and vegetation productivity<br>  ![](img/logo_umayor.png){width=250} ![](img/logo_hemera.png){width=350} ![](img/UC_logo.svg){width=150}"
+author:
+  - name: Francisco Zambrano
+    id: hemera
+    orcid: 0000-0001-6896-8534
+    corresponding: true
+    email: francisco.zambrano@umayor.cl
+    affiliations:
+      - name: Hemera, UMayor
+  - name: Francisco Meza
+    id: uc
+    orcid: 0000-0002-9853-227X
+    email: fmeza@uc.cl
+    affiliations:
+      - name: Agronomía UC. 
+  - name: Nicolas Raab
+    id: uc
+    orcid: 0000-0003-0356-4242
+    email: nraab@uc.cl
+  - name: Iongel Duran-Llacer
+    id: hemera
+    orcid: 0000-0003-3290-4947
+    email: iongel.duran@umayor.cl
+#"Francisco Zambrano, Francisco Meza, Nicolas Raab, and Iongel Duran-Llacer"
+date: "April 18, 2024"
+format: 
+    revealjs:
+      slide-number: true
+      transition: fade
+      background-transition: fade
+      theme: default
+      logo: img/horizontal_SB_color.png
+      footer: "slides: [https://fseq210022.github.io/EGU2024](https://fseq210022.github.io/EGU2024)"
+editor: visual
+engine: knitr
+title-slide-attributes:
+    data-background-image: "img/bg.jpg"
+    data-background-size: cover
+    data-background-opacity: ".4"
+---
+
+## Context 
+
+## Methods
+
+## Results
+
+## Conclusion
+
+
+

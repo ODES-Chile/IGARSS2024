@@ -1,0 +1,278 @@
+---
+title: "![](img/IG24_Logo_OutlineWhite.svg){width=300}"
+subtitle: "Assessment of drought in continental Chile for 1981–2023 by climate variables of water supply and demand, soil moisture, and vegetation<br>  ![](img/logo_umayor.png){width=250} ![](img/logo_hemera.png){width=350}"
+author:
+  - name: Francisco Zambrano
+    id: hemera
+    orcid: 0000-0001-6896-8534
+    corresponding: true
+    email: francisco.zambrano@umayor.cl
+    # affiliations:
+    #   - name: Hemera, UMayor
+  - name: Iongel Duran-Llacer
+    id: hemera
+    orcid: 0000-0003-3290-4947
+    email: iongel.duran@umayor.cl
+#"Francisco Zambrano, Francisco Meza, Nicolas Raab, and Iongel Duran-Llacer"
+#date: "April 18, 2024"
+width: 1280
+height: 720
+format: 
+    revealjs:
+      slide-number: false
+      transition: fade
+      title: "![](img/IG24_Logo_OutlineWhite.svg){width=150}"
+      background-transition: fade
+      theme: [default, custom.scss]
+      logo: img/horizontal_SB_color.png
+      footer: "slides: [https://ODES-Chile.org/IGARSS2024](https://ODES-Chile.org/IGARSS2024)"
+website:
+  favicon: https://raw.githubusercontent.com/ODES-Chile/ODES-Chile.github.io/main/assets/img/Isotip_gradiente_azul.png
+editor: visual
+css: style.css
+engine: knitr
+bibliography: references.bib
+title-slide-attributes:
+    data-background-image: "img/bg.jpg"
+    data-background-size: cover
+    data-background-opacity: ".4"
+---
+
+## Motivation {background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+-   `Global warming` has `increased` the `frequency` and `intensity` of `drought`, according to the AR6 of the IPCC [@IPCC2023].
+
+-   @IPCC2023 suggests that rising temperatures `will increase` the extent, frequency, and `severity` of `agricultural` and `ecological droughts`.
+
+-   `North-central` Chile has faced a persistent precipitation deficit `since 2010`, defined as a `megadrought` [@Garreaud2017].
+
+<!-- ![Source: https://earthobservatory.nasa.gov/](img/global_gis_2022_chart.png){width="20%" fig-align="center"}-->
+
+![fsfdsfsdfdsf](img/fig2_GCH2023_PR_ERA5_surface_temperature_anomaly_annual_2023.png){width="15%" fig-align="center"} ![](img/era_temp_time_series.png){width="20%" fig-align="center"} ![](img/chile-flag.png){width="10%"} ![](img/megadrought_chile_guardian.png){width="30%"}
+
+##  {background-image="img/fig_spei24_macrozonas.png" background-size="contain"}
+
+## Objective {background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+The goals of the work are:
+
+**trends**
+
+i) to determine the short- to long-term temporal `trends` in multi-scalar drought indices of `water demand`, `water supply`, and `soil moisture`; and `vegetation productivity`;
+
+**correlation**
+
+ii) to analyze the relationship between a proxy of vegetation productivity and different time scales of drought indices.
+
+## Study Area {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+**Continental Chile**
+
+::: columns
+::: {.column width="50%"}
+![](img/map_study_con_landcover.png){width="85%"}
+:::
+
+::: {.column width="50%"}
+**Land cover persistent surface area (\>80%)** <br> (2001-2022)
+
+![](img/table_surface_landcover_macrozone.png){width="100%"} Note: Derived from MCD12Q1.061 (MODIS)
+:::
+:::
+
+## Flow chart {background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+::: columns
+::: {.column width="80%"}
+![](img/diagram_methods.png)
+:::
+
+::: {.column width="20%"}
+![](img/era5L_banner1.png) ![](img/era5L_banner2.png) ![](img/NASA_ModisLogo_TB.png) ![Water Cycle/Balance Schematic. Source: FISRWG 1998](img/water_balance2.jpeg){width="100%"}
+:::
+:::
+
+<!-- ## Methods -->
+
+<!-- ### Data -->
+
+<!-- ![](img/table_data_used.png) -->
+
+<!-- **Atmospheric Evaporative Demand (AED) [@Hargreaves1985]** -->
+
+<!-- $$AED = 0.0023\cdot Ra\cdot (T+17.8)\cdot (T_{max}-T_{min})^{0.5}$$ {#eq-AED} -->
+
+<!-- ## Methods {.smaller} -->
+
+<!-- **Drought Indices and vegetation productivity** -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="70%"} -->
+
+<!-- -   `Water Demand:` Evaporative Demand Drought Index (EDDI) [@Hobbins2016; @McEvoy2016] -->
+
+<!-- -   `Water Supply:` Standardized Precipitation Index (SPI) [@McKee1993] -->
+
+<!-- -   `Water Supply - Water Demand:` Standardized Precipitation Evapotranspiration Index [@Vicente-Serrano2010] -->
+
+<!-- -   `Soil Moisture:` Standardized Soil Moisture Index (SSI) [@Hao2013] -->
+
+<!-- -   `Vegetation Productivity:` Standardized Anomaly of cumulative NDVI (zcNDVI) [@Zambrano2018] -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="30%"} -->
+
+<!-- ![Water Cycle/Balance Schematic. Source: FISRWG 1998](img/water_balance2.jpeg){width="80%"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## Drought Indices {.smaller background-image="img/egu24_logo.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"} -->
+
+<!-- >Non-parametric method for the calculation of the drought indices [@Farahmand2015] -->
+
+<!-- ::: {.columns} -->
+
+<!-- ::: {.column width=50%} -->
+
+<!-- -   Empirical Tukey plotting position [@Wilks2011] -->
+
+<!-- $$P(A^s_i) = \frac{i-0.33}{n+0.33'}$$ {#eq-probPai} -->
+
+<!-- -   The drought indices: -->
+
+<!--   - `SPI` [@McKee1993],  -->
+
+<!--   - `SPEI` [@Vicente-Serrano2010],  -->
+
+<!--   - `EDDI` [@Hobbins2016; @McEvoy2016],  -->
+
+<!--   - `SSI` [@Hao2013], and  -->
+
+<!--   - `zcNDVI` [@Zambrano2018]  -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width=50%} -->
+
+<!-- Inverse normal approximation [@Abramowitz1968]: -->
+
+<!-- $$DI(A^s_i) = W - \frac{C_0+C_1\cdot W + c_2 \cdot W^2}{1+d_1\cdot W +d_2\cdot W^2 +d_3\cdot W^3}$$ {#eq-DI} -->
+
+<!-- -   `SPI, SPEI, EDDI, SSI` -\> Short- (1 to 6 months) and long-term (12-36 months). -->
+
+<!-- -   `zcNDVI` -\> anomaly of cumulative NDVI of 6 months -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+## Analysis {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+::: columns
+::: {.column width="85%"}
+**1) Trends analysis**
+
+-   `Significance of the trend:` non-parametric modified Mann-Kendall test for serially correlated data [@Yue2004].
+-   `Magnitude of the trend:` Sen’s slope [@Sen1968].
+    -   Water demand and supply drought indices (SPI, SPEI, EDDI, and SSI) for 1981-2023\
+    -   Vegetation productivity (zcNDVI) for 2000-2023 over the unchanged land cover.
+
+**2) Relationship of zcNDVI with drought indices**
+
+-   Pixel-to-pixel correlation between the drought indices for short-term (1, 3, and 6 mnths) to long-term (12, 24, and 36 mnths) with zcNDVI..
+-   Resulting in two raster maps:\
+    1)  values of the `time scale` that `reached` the `maximum correlation` per drought index and\
+    2)  magnitude of the correlation (r).
+:::
+
+::: {.column width="15%"}
+![](img/Rlogo.png){width="50%"} ![](img/sf-logo.gif){width="50%"} ![](img/logo-terra.png){width="50%"} ![](img/hex-tidyverse.png){width="50%"}
+:::
+:::
+
+# Results: trends  {background-color="lightgrey"}
+
+> Zambrano, F., Vrieling, A., Meza, F., Duran-Llacer, I., Fernández, F., Venegas-González, A., Raab, N., & Craven, D. (2024). Shifts in water supply and demand drive land cover change across Chile. California Digital Library (CDL). [https://doi.org/10.31223/x5cd80](https://doi.org/10.31223/x5cd80)
+
+
+##  {background-image="img/trend_raster_SPI_EDDI_macro_1981-2023.png" background-size="contain"}
+
+## {background-image="img/temporal_variation_zcNDVI6_macrozonas_con_mapa.png" background-size="contain"}
+
+# Results: correlations {background-color="lightblue"}
+
+> Zambrano, F., Vrieling, A., Meza, F., Duran-Llacer, I., Fernández, F., Venegas-González, A., Raab, N., & Craven, D. (2024). Shifts in water supply and demand drive land cover change across Chile. California Digital Library (CDL). [https://doi.org/10.31223/x5cd80](https://doi.org/10.31223/x5cd80)
+
+
+## {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+::: columns
+::: {.column width="30%"}
+### Time-scales that reached the maximum $R^2$
+
+![](img/leyenda_escalas_tiempo.png){fig-align='rigth'}
+:::
+::: {.column width="70%"}
+![](img/mapa_cor_selec_indices_zcNDVI6.png){fig-align="center" width="80%" }
+:::
+:::
+
+## {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+::: columns
+::: {.column width="30%"}
+### Pearson coefficient of correlation (r)
+:::
+::: {.column width="70%"}
+![](img/mapa_cor_r_indices_zcNDVI6.png){fig-align="center" width="80%" }
+:::
+:::
+
+<!-- ::: {.column width="50%"} -->
+<!-- Coefficient of correlation (r) ![](img/mapa_cor_r_indices_zcNDVI6.png){width="85%"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## Summary and outlook {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
+
+**Trends**
+
+-   We found a `significant trend` toward `decreasing` water `supply` in most of the Chilean territory.
+
+-   The whole country showed an `increase` in water `demand` due to increasing temperatures.
+
+-   The magnitude of the `trends` become stronger for `longer time scales`.
+
+-   The change in `vegetation productivity` has been `severe` in the `north-central` part of the country.
+
+**Correlation of drought indices and zcNDVI**
+
+-   The anomaly in `soil moisture` over `12 months` is the main variable explaining the change in vegetation productivity (r-squared = \~0.5 in north-central Chile).
+
+-   The variation in `AED` appears to `intensify` the drought impact on `vegetation productivity`.
+
+**Outlook**
+
+-   In future works, we will seek to analyze the `interaction` between drought trends (demand, supply, and soil moisture) and `land cover changes`.
+
+# Thank you! {.center}
+
+![](https://cdn1.iconfinder.com/data/icons/shopping-346/24/browser-internet-website-click-page-512.png){width="50"}<https://odes-chile.org/app/unidades>\
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png){width="50"} <https://www.linkedin.com/company/odes-chile/>\
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png){width="50"} [\_odeschile](https://instagram.com/_odeschile)\
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png){width="50"} [\@odes_chile](https://twitter.com/odes_chile)\
+![](https://cdn1.iconfinder.com/data/icons/office-322/24/email-message-envelope-letter-512.png){width="50"}[francisco.zambrano\@umayor.cl](mailto:francisco.zambrano@umayor.cl)
+
+## Acknowledgment {.smaller}
+
+The National Research and Development Agency of Chile (ANID) funded this work through the following projects:  
+  - Drought Emergency `FSEQ210022`  
+  - Fondecyt Regular `N°121056`  
+  - Fondecyt de Inicación `N°11190360`  
+  - Fondecyt Postdoctorado `N°3230678`  
+  
+## References {#refs .scrollable .smaller}
