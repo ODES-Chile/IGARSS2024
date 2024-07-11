@@ -257,7 +257,7 @@ ii) to analyze the relationship between a proxy of vegetation productivity and d
 
 **Outlook**
 
--   In future works, we will seek to analyze the `interaction` between drought trends (demand, supply, and soil moisture) and `land cover changes`.
+-   In future works, we will seek to analyze the `interaction` between drought trends (demand, supply, and soil moisture) and `land cover changes` [@Zambrano2024].
 
 # Thank you! {.center}
 
