@@ -259,7 +259,7 @@ ii) to analyze the relationship between a proxy of vegetation productivity and d
 
 -   In future works, we will seek to analyze the `interaction` between drought trends (demand, supply, and soil moisture) and `land cover changes` [@Zambrano2024].
 
-# Thank you! {.center}
+# Thank you! {.center background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
 
 ![](https://cdn1.iconfinder.com/data/icons/shopping-346/24/browser-internet-website-click-page-512.png){width="50"}<https://odes-chile.org/app/unidades>\
 ![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png){width="50"} <https://www.linkedin.com/company/odes-chile/>\
@@ -267,7 +267,7 @@ ii) to analyze the relationship between a proxy of vegetation productivity and d
 ![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png){width="50"} [\@odes_chile](https://twitter.com/odes_chile)\
 ![](https://cdn1.iconfinder.com/data/icons/office-322/24/email-message-envelope-letter-512.png){width="50"}[francisco.zambrano\@umayor.cl](mailto:francisco.zambrano@umayor.cl)
 
-## Acknowledgment {.smaller}
+## Acknowledgment {.smaller background-image="img/IG24_Logo_OutlineWhite.svg" background-position="97.5% 2.5%" background-size="7.5%" layout="true"}
 
 The National Research and Development Agency of Chile (ANID) funded this work through the following projects:  
   - Drought Emergency `FSEQ210022`  
